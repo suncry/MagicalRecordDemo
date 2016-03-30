@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C82A64F1CAA5168004E8F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A64E1CAA5168004E8F94 /* AppDelegate.swift */; };
+		4C82A6511CAA5168004E8F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A6501CAA5168004E8F94 /* ViewController.swift */; };
+		4C82A6541CAA5168004E8F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C82A6521CAA5168004E8F94 /* Main.storyboard */; };
+		4C82A6591CAA5168004E8F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C82A6581CAA5168004E8F94 /* Assets.xcassets */; };
+		4C82A65C1CAA5168004E8F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C82A65A1CAA5168004E8F94 /* LaunchScreen.storyboard */; };
+		4C82A6841CAA5283004E8F94 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A6821CAA5283004E8F94 /* Model.xcdatamodeld */; };
+		4C82A6891CAA5722004E8F94 /* DetailEntiry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A6851CAA5722004E8F94 /* DetailEntiry+CoreDataProperties.swift */; };
+		4C82A68A1CAA5722004E8F94 /* DetailEntiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A6861CAA5722004E8F94 /* DetailEntiry.swift */; };
+		4C82A68B1CAA5722004E8F94 /* ContainerEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A6871CAA5722004E8F94 /* ContainerEntity+CoreDataProperties.swift */; };
+		4C82A68C1CAA5722004E8F94 /* ContainerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A6881CAA5722004E8F94 /* ContainerEntity.swift */; };
+		4CB076F31CABC6280096B72E /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB076EA1CABC6180096B72E /* libMagicalRecord.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB076E11CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 905D07181A63DE190076B54E;
+			remoteInfo = "MagicalRecord for iOS";
+		};
+		4CB076E31CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9004F5211A94CBCF00A61312;
+			remoteInfo = "MagicalRecord for iOS Tests";
+		};
+		4CB076E51CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 905D073B1A63DE690076B54E;
+			remoteInfo = "MagicalRecord for OS X";
+		};
+		4CB076E71CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9004F5661A94CBF900A61312;
+			remoteInfo = "MagicalRecord for OS X Tests";
+		};
+		4CB076E91CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7CF97AB17498414008D9D13;
+			remoteInfo = "libMagicalRecord for iOS";
+		};
+		4CB076EB1CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7CF97FF174984CA008D9D13;
+			remoteInfo = "libMagicalRecord for iOS Tests";
+		};
+		4CB076ED1CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7CF97BB1749843F008D9D13;
+			remoteInfo = "libMagicalRecord for OS X";
+		};
+		4CB076EF1CABC6180096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7CF9816174984E4008D9D13;
+			remoteInfo = "libMagicalRecord for OS X Tests";
+		};
+		4CB076F11CABC6210096B72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CF97AA17498414008D9D13;
+			remoteInfo = "libMagicalRecord for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C82A64B1CAA5168004E8F94 /* MagicalRecordTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C82A64E1CAA5168004E8F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C82A6501CAA5168004E8F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C82A6531CAA5168004E8F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C82A6581CAA5168004E8F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C82A65B1CAA5168004E8F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C82A65D1CAA5168004E8F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C82A6831CAA5283004E8F94 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4C82A6851CAA5722004E8F94 /* DetailEntiry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DetailEntiry+CoreDataProperties.swift"; path = "../DetailEntiry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C82A6861CAA5722004E8F94 /* DetailEntiry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailEntiry.swift; path = ../DetailEntiry.swift; sourceTree = "<group>"; };
+		4C82A6871CAA5722004E8F94 /* ContainerEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ContainerEntity+CoreDataProperties.swift"; path = "../ContainerEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C82A6881CAA5722004E8F94 /* ContainerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerEntity.swift; path = ../ContainerEntity.swift; sourceTree = "<group>"; };
+		4C82A68F1CAA5A98004E8F94 /* MagicalRecord-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MagicalRecord.xcodeproj; path = MagicalRecord/MagicalRecord.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C82A6481CAA5168004E8F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB076F31CABC6280096B72E /* libMagicalRecord.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C82A6421CAA5168004E8F94 = {
+			isa = PBXGroup;
+			children = (
+				4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */,
+				4C82A64D1CAA5168004E8F94 /* MagicalRecordTest */,
+				4C82A64C1CAA5168004E8F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C82A64C1CAA5168004E8F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C82A64B1CAA5168004E8F94 /* MagicalRecordTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C82A64D1CAA5168004E8F94 /* MagicalRecordTest */ = {
+			isa = PBXGroup;
+			children = (
+				4C82A68F1CAA5A98004E8F94 /* MagicalRecord-Bridging-Header.h */,
+				4C82A64E1CAA5168004E8F94 /* AppDelegate.swift */,
+				4C82A6851CAA5722004E8F94 /* DetailEntiry+CoreDataProperties.swift */,
+				4C82A6861CAA5722004E8F94 /* DetailEntiry.swift */,
+				4C82A6871CAA5722004E8F94 /* ContainerEntity+CoreDataProperties.swift */,
+				4C82A6881CAA5722004E8F94 /* ContainerEntity.swift */,
+				4C82A6501CAA5168004E8F94 /* ViewController.swift */,
+				4C82A6521CAA5168004E8F94 /* Main.storyboard */,
+				4C82A6581CAA5168004E8F94 /* Assets.xcassets */,
+				4C82A65A1CAA5168004E8F94 /* LaunchScreen.storyboard */,
+				4C82A65D1CAA5168004E8F94 /* Info.plist */,
+				4C82A6821CAA5283004E8F94 /* Model.xcdatamodeld */,
+			);
+			path = MagicalRecordTest;
+			sourceTree = "<group>";
+		};
+		4CB076D61CABC6170096B72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB076E21CABC6180096B72E /* MagicalRecord.framework */,
+				4CB076E41CABC6180096B72E /* MagicalRecord for iOS Tests.xctest */,
+				4CB076E61CABC6180096B72E /* MagicalRecord.framework */,
+				4CB076E81CABC6180096B72E /* MagicalRecord for OS X Tests.xctest */,
+				4CB076EA1CABC6180096B72E /* libMagicalRecord.a */,
+				4CB076EC1CABC6180096B72E /* libMagicalRecord for iOS Tests.xctest */,
+				4CB076EE1CABC6180096B72E /* libMagicalRecord.dylib */,
+				4CB076F01CABC6180096B72E /* libMagicalRecord for OS X Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C82A64A1CAA5168004E8F94 /* MagicalRecordTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C82A6601CAA5168004E8F94 /* Build configuration list for PBXNativeTarget "MagicalRecordTest" */;
+			buildPhases = (
+				4C82A6471CAA5168004E8F94 /* Sources */,
+				4C82A6481CAA5168004E8F94 /* Frameworks */,
+				4C82A6491CAA5168004E8F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB076F21CABC6210096B72E /* PBXTargetDependency */,
+			);
+			name = MagicalRecordTest;
+			productName = MagicalRecordTest;
+			productReference = 4C82A64B1CAA5168004E8F94 /* MagicalRecordTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C82A6431CAA5168004E8F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = heyunpeng;
+				TargetAttributes = {
+					4C82A64A1CAA5168004E8F94 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4C82A6461CAA5168004E8F94 /* Build configuration list for PBXProject "MagicalRecordTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C82A6421CAA5168004E8F94;
+			productRefGroup = 4C82A64C1CAA5168004E8F94 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4CB076D61CABC6170096B72E /* Products */;
+					ProjectRef = 4CB076D51CABC6170096B72E /* MagicalRecord.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C82A64A1CAA5168004E8F94 /* MagicalRecordTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4CB076E21CABC6180096B72E /* MagicalRecord.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MagicalRecord.framework;
+			remoteRef = 4CB076E11CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076E41CABC6180096B72E /* MagicalRecord for iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MagicalRecord for iOS Tests.xctest";
+			remoteRef = 4CB076E31CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076E61CABC6180096B72E /* MagicalRecord.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MagicalRecord.framework;
+			remoteRef = 4CB076E51CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076E81CABC6180096B72E /* MagicalRecord for OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MagicalRecord for OS X Tests.xctest";
+			remoteRef = 4CB076E71CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076EA1CABC6180096B72E /* libMagicalRecord.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMagicalRecord.a;
+			remoteRef = 4CB076E91CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076EC1CABC6180096B72E /* libMagicalRecord for iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "libMagicalRecord for iOS Tests.xctest";
+			remoteRef = 4CB076EB1CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076EE1CABC6180096B72E /* libMagicalRecord.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libMagicalRecord.dylib;
+			remoteRef = 4CB076ED1CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4CB076F01CABC6180096B72E /* libMagicalRecord for OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "libMagicalRecord for OS X Tests.xctest";
+			remoteRef = 4CB076EF1CABC6180096B72E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C82A6491CAA5168004E8F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C82A65C1CAA5168004E8F94 /* LaunchScreen.storyboard in Resources */,
+				4C82A6591CAA5168004E8F94 /* Assets.xcassets in Resources */,
+				4C82A6541CAA5168004E8F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C82A6471CAA5168004E8F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C82A6511CAA5168004E8F94 /* ViewController.swift in Sources */,
+				4C82A68C1CAA5722004E8F94 /* ContainerEntity.swift in Sources */,
+				4C82A6891CAA5722004E8F94 /* DetailEntiry+CoreDataProperties.swift in Sources */,
+				4C82A68A1CAA5722004E8F94 /* DetailEntiry.swift in Sources */,
+				4C82A64F1CAA5168004E8F94 /* AppDelegate.swift in Sources */,
+				4C82A68B1CAA5722004E8F94 /* ContainerEntity+CoreDataProperties.swift in Sources */,
+				4C82A6841CAA5283004E8F94 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB076F21CABC6210096B72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libMagicalRecord for iOS";
+			targetProxy = 4CB076F11CABC6210096B72E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C82A6521CAA5168004E8F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C82A6531CAA5168004E8F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C82A65A1CAA5168004E8F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C82A65B1CAA5168004E8F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C82A65E1CAA5168004E8F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C82A65F1CAA5168004E8F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C82A6611CAA5168004E8F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicalRecordTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = AI.MagicalRecordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicalRecord-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		4C82A6621CAA5168004E8F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicalRecordTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = AI.MagicalRecordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicalRecord-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C82A6461CAA5168004E8F94 /* Build configuration list for PBXProject "MagicalRecordTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C82A65E1CAA5168004E8F94 /* Debug */,
+				4C82A65F1CAA5168004E8F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C82A6601CAA5168004E8F94 /* Build configuration list for PBXNativeTarget "MagicalRecordTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C82A6611CAA5168004E8F94 /* Debug */,
+				4C82A6621CAA5168004E8F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C82A6821CAA5283004E8F94 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C82A6831CAA5283004E8F94 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4C82A6831CAA5283004E8F94 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C82A6431CAA5168004E8F94 /* Project object */;
+}
